@@ -1,7 +1,7 @@
 ### Wifi led strip control and Infrared receiver bridge
 
 
-### Install Arduino and ESP8266 board
+### Install Arduino and ESP8266 board
 
 Download Arduino IDE, [link](https://www.arduino.cc/en/main/software)
 
