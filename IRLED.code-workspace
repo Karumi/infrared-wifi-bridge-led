@@ -1,0 +1,65 @@
+{
+	"folders": [
+		{
+			"path": "/Users/toni/Documents/sato/satostation/firmware/espurna/code"
+		},
+		{
+			"name": "Arduino",
+			"path": "/Users/toni/Documents/PlatformIO/Projects/Arduino"
+		},
+		{
+			"name": "IR Led",
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.osx": {
+			"PATH": "/Users/toni/.platformio/penv/bin:/Users/toni/.platformio/penv:/usr/local/opt/gdal2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Applications/Wireshark.app/Contents/MacOS",
+			"PLATFORMIO_CALLER": "vscode"
+		},
+		"files.associations": {
+			"functional": "cpp",
+			"array": "cpp",
+			"atomic": "cpp",
+			"*.tcc": "cpp",
+			"bitset": "cpp",
+			"cctype": "cpp",
+			"chrono": "cpp",
+			"clocale": "cpp",
+			"cmath": "cpp",
+			"cstdarg": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"deque": "cpp",
+			"list": "cpp",
+			"unordered_map": "cpp",
+			"vector": "cpp",
+			"exception": "cpp",
+			"fstream": "cpp",
+			"initializer_list": "cpp",
+			"iosfwd": "cpp",
+			"iostream": "cpp",
+			"istream": "cpp",
+			"limits": "cpp",
+			"mutex": "cpp",
+			"new": "cpp",
+			"ostream": "cpp",
+			"numeric": "cpp",
+			"ratio": "cpp",
+			"sstream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"system_error": "cpp",
+			"cinttypes": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp",
+			"typeinfo": "cpp",
+			"string": "cpp"
+		}
+	}
+}

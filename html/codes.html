@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: gray;
+}
+
+
+.btn {
+   padding: 10px;
+   color: #FFFFFF;
+   font-size: 20px;
+   font-weight: 100;
+   border-radius: 20px;
+   background-color: #17AD20;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.btn-off {
+   background-color: #547068;
+}
+
+.btn-normal {
+   background-color: #17ADFF;
+}
+
+.btn:hover {
+   background: #118218;
+   text-decoration: none;
+}
+
+</style>
+
+<title>Karumi LEDs</title>
+</head>
+<body>
+
+<div class="container-fluid" align="center">
+	<div class="row">
+		<div class="col-md-12">
+			<img width="100px" height="100px" alt="Bootstrap Image Preview" src="https://images.squarespace-cdn.com/content/56dd9af5e707eb815a7f9c86/1459333991094-B5E0UWE508B3WKZFNZ8O/karumi+copy.png?content-type=image%2Fpng" /> 
+            </br>
+            <p>SERIE32</p>
+            </br>
+			<button type="button" class="btn btn-off" >
+				OFF
+			</button> 
+             </br>
+             </br>
+            </br>
+			<button type="button" class="btn btn-normal">
+				Configure WIFI
+			</button> 
+             </br>
+             </br>
+             <p>Press the Remote control button you want to configure, and select which codes you want to link to turn on/off the led strip</p>
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>
+							CODES
+						</th>
+						<th>
+							Select
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							0x0CA0
+						</td>
+						<td>
+							<input type="checkbox" name="code" value="0x0CA0"> 
+						</td>
+					</tr>									
+				</tbody>
+			</table>
+            </br>
+            <button type="button" class="btn btn-normal">
+				Save
+			</button> 
+		</div>
+	</div>
+</div>
+</body>
+</html>
