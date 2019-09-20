@@ -27,7 +27,7 @@ Run test environment firmware:
 pio run -t upload -e test-irled
 ```
 
-### Flash it with FT232RL FTDI
+### Flash it with FT232RL FTDI
 
 [FT232RL FTDI chip](https://www.ftdichip.com/Products/ICs/FT232R.htm) is a USB to serial UART interface with optional clock generator output. 
 
