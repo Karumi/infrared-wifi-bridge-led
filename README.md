@@ -1,5 +1,8 @@
 ### Wifi led strip control and Infrared receiver bridge
 
+![](pictures/enclosure.png)
+
+This is the source code of the Karumi WIFI board internal workshop.
 
 ### Install Arduino and ESP8266 board
 
@@ -29,4 +32,8 @@ pio run -t upload -e test-irled
 [FT232RL FTDI chip](https://www.ftdichip.com/Products/ICs/FT232R.htm) is a USB to serial UART interface with optional clock generator output. 
 
 You need to install the following drivers to make it working on your computer, [download drivers](https://www.ftdichip.com/Drivers/D2XX.htm). Also, I'd recommend to watch this video tutorial [how to install this driver on MAC OS](https://www.youtube.com/watch?v=Ir2PVz1870E&feature=youtu.be). There are other videos to install in other systems on the original website.
+
+### How to use it
+
+You need to connect it to 12v 1A power supply, it creates an WIFI access point with an SSID KARUMI-XXX without password, after connect you need to connect to 192.168.4.1 IP.
 
