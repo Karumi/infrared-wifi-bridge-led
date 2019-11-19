@@ -1,4 +1,4 @@
-/node_modules
+**/node_modules
 /*.sw?
 /yarn-error.log
 !/build/.keep
