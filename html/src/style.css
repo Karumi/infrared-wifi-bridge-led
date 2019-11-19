@@ -1,3 +1,29 @@
+.logo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("./img/karumi.svg");
+}
+
+.logo.small {
+    min-height: 55px;
+    min-width: 65px;
+}
+
+/* Because uncss can't ignore */
+
+.navbar-burger.is-active span:nth-child(1) {
+    -webkit-transform: translateY(5px) rotate(45deg);
+    transform: translateY(5px) rotate(45deg)
+}
+
+.navbar-burger.is-active span:nth-child(2) {
+    opacity: 0
+}
+
+.navbar-burger.is-active span:nth-child(3) {
+    -webkit-transform: translateY(-5px) rotate(-45deg);
+    transform: translateY(-5px) rotate(-45deg)
+}
 
 .panel-block {
     align-items: center;

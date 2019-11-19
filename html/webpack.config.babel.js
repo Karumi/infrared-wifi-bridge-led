@@ -29,7 +29,7 @@ export default {
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
+        loader: "babel-loader",
         options: {
           plugins: ["babel-plugin-transform-object-rest-spread"]
         }
@@ -40,6 +40,13 @@ export default {
           fallback: "style-loader",
           use: "css-loader?modules&localIdentName=" + (ENV == 'production' ? "[local]" : "[local]")
         })
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2)$/i,
+        loader: 'url-loader',
+        options: {
+          limit: 8192,
+        },
       },
     ]
   },
