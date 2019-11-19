@@ -27,6 +27,33 @@ Run test environment firmware:
 pio run -t upload -e test-irled
 ```
 
+### Build the website locally
+
+You can run the ESP8266 website locally on your machine running:
+
+```
+yarn start
+```
+
+Start command will starts the website on `http://localhost:8080`.
+
+Build the website into the ESP8266 code:
+
+```
+yarn build
+```
+
+The build process will be triggered before flash the program into the ESP8266 if some change was made on the `html` folder.
+
+You can have a full web production experience locally if you run a web socket server locally before run `yarn build` with:
+
+```
+yarn http:server
+```
+
+This command will starts a local server with Web sockets and HTTP serving the `index.html` file from `build` folder.
+
+
 ### Flash it with FT232RL FTDI
 
 [FT232RL FTDI chip](https://www.ftdichip.com/Products/ICs/FT232R.htm) is a USB to serial UART interface with optional clock generator output. 
